@@ -1,0 +1,13 @@
+Algorithm for selection sort
+
+step 1: Start: Begin the selection sort algorithm.
+step 2: Input: Take an array arr[] of integers and its size n.
+step 3: Outer Loop: Iterate i from 0 to n-2.
+step 4: Set min_idx to i, assuming i as the index of the minimum element.
+step 5: Inner Loop: Iterate j from i+1 to n-1.
+step 6: Check if the element at index j is less than the element at index min_idx.
+step 7: If true, update min_idx to j.
+step 8: Swap: If min_idx is not equal to i, swap the elements at indices min_idx and i.
+step 9: Repeat: Repeat steps 3-5 until the array is sorted.
+step 10: Output: Print the sorted array.
+step 11: End: End the selection sort algorithm.
