@@ -1,0 +1,17 @@
+//Algorithm for Calculating Factorial
+Input: Read and store the integer in variable n.
+Output: Print the value of fact, which now contains the factorial of the originally entered number n.
+
+Step 1: Display a message asking the user to enter an integer.
+Step 2: Read the integer input from the user and store it in variable n.
+Step 3: Initialize fact to 1, which serves as the initial value for calculating factorial.
+Step 4: Enter a while loop with the condition n > 0.
+Step 5: Inside the loop:
+Update fact by multiplying it with the current value of n.
+Decrement n by 1 to move towards calculating the factorial step by step.
+Step 6: Once the loop terminates (when n becomes 0), print the value of fact.
+Step 7: End the program.
+
+Complexity:
+Time Complexity: O(n) - The algorithm iterates n times in the while loop to calculate the factorial.
+Space Complexity: O(1) - Only a few variables (n, fact) are used, regardless of the input size.
