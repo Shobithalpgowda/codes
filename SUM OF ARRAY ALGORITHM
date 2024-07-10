@@ -1,0 +1,10 @@
+STEP 1: START
+STEP 2: INITIALIZE arr[] = {1, 2, 3, 4, 5}
+STEP 3: SET sum = 0
+STEP 4: length= sizeof(arr)/sizeof(arr[0])
+STEP 5: SET i=0. REPEAT STEP 6 and STEP 7 UNTIL i<length
+STEP 6: sum = sum + arr[i]
+STEP 7: i=i+1.
+STEP 8: PRINT "Sum of all the elements of an array:" by assigning sum.
+STEP 9: RETURN 0.
+STEP 10: END.
