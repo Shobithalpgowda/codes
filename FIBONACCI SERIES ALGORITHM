@@ -1,0 +1,14 @@
+Start
+Declare variables i, a,b , show
+Initialize the variables, a=0, b=1, and show =0
+Enter the number of terms of Fibonacci series to be printed
+Print First two terms of series
+Use loop for the following steps
+-> show=a+b
+-> a=b
+-> b=show
+-> increase value of i each time by 1
+-> print the value of show
+End
+
+Fibonacci series
