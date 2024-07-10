@@ -1,0 +1,13 @@
+Step 1: Start
+Step 2: Read the binary number from the user, say ‘n’
+Step 3: Initialize the decimal number, d=0
+Step 4: Initialize i=0
+Step 5: Repeat while n != 0:
+		Step 5.1: Extract the last digit by: remainder = n % 10
+		Step 5.2: n = n/10
+		Step 5.3: d = d + (remainder * 2<sup>i</sup>)
+		Step 5.4: Increment i by 1
+Step 6: Display the decimal number, d
+Step 7: Stop
+
+Convert binary to decimal
