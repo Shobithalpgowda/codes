@@ -1,0 +1,13 @@
+Step 1: Initialize two pointers, i and j, at the beginning and end of the array (excluding the pivot). 
+
+Step 2: Increment i until you find an element greater than or equal to the pivot. 
+
+Step 3: Decrement j until you find an element less than or equal to the pivot. 
+
+Step 4: If i is less than j, swap the elements at i and j. 
+
+Step 5: Repeat steps 2-4 until i and j cross each other. 
+
+Step 6: Swap the pivot element with the element at j. This places the pivot in its final position, dividing the array into two partitioned subarrays. 
+
+Step 7: Apply Quick Sort to the sub-arrays (Continue recursion until each sub-array becomes sorted) 
